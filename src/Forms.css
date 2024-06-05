@@ -1,0 +1,61 @@
+/* Form.css */
+
+body {
+  margin: 0; /* Reset body margin */
+}
+
+form {
+  max-width: 600px; /* Set maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent zooming in by hiding overflow */
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: calc(100% - 10px); /* Set the width of inputs and select */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%; /* Make select full width */
+}
+
+span {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
